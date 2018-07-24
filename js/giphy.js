@@ -16,7 +16,7 @@
 // When do I make the request?
   // Is this based on a user interaction?
 
-var GIPHY_BASE_URL = "http://api.giphy.com/v1/gifs/random";
+var GIPHY_BASE_URL = "https://api.giphy.com/v1/gifs/random";
 var API_KEY = "dc6zaTOxFJmzC";
 
 var displayGif = function ( url ) {

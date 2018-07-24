@@ -3,7 +3,7 @@
   // Methods
   // Data Types
 
-var CHUCK_URL = 'http://api.icndb.com/jokes/random';
+var CHUCK_URL = 'https://api.icndb.com/jokes/random';
 var CHUCK_METHOD = 'GET';
 var CHUCK_TYPE = 'JSON';
 

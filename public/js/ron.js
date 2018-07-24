@@ -1,4 +1,4 @@
-var RON_BASE_URL = "http://ron-swanson-quotes.herokuapp.com/v2/quotes";
+var RON_BASE_URL = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
 var RON_HTTP_METHOD = "GET";
 var RON_DATA_TYPE = "JSON";
 
@@ -18,7 +18,7 @@ var displayRonQuote = function ( quote ) {
 
 // Ask for a Ron Swanson quote
   // What is the URL?
-  // "http://ron-swanson-quotes.herokuapp.com/v2/quotes"
+  // "https://ron-swanson-quotes.herokuapp.com/v2/quotes"
 
   // What is the HTTP Method || Verb?
   // "GET"
