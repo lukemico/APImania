@@ -1,4 +1,4 @@
-# API Integration - Giphy / Ron Swanson / Chuck Norris / 
+# API Integration - Giphy / Ron Swanson / Chuck Norris 
 This application displays a series of API's and how they can interact to return data, images, video etc. This app uses's three separate API's that return a variety of information, to give an insight to the power of accessing API's within applications.
 
 
