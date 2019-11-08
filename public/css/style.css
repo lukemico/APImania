@@ -1,58 +1,71 @@
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box;
-  -o-box-sizing: border-box;
-  box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 body {
-  overflow: hidden;
-  margin: 0;
-  font-family: monospace;
-  text-align: center;
+	overflow: hidden;
+	margin: 0;
+	font-family: monospace;
+	text-align: center;
 }
 
 nav {
-  width: 100%;
-  overflow: hidden;
-  background-color: #FFFF00;
-  height: 80px;
-  line-height: 80px;
+	width: 100%;
+	overflow: hidden;
+	background-color: #ffff00;
+	height: 80px;
+	line-height: 80px;
+	background: #a8ff78; /* fallback for old browsers */
+	background: -webkit-linear-gradient(
+		to right,
+		#78ffd6,
+		#a8ff78
+	); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(
+		to right,
+		#78ffd6,
+		#a8ff78
+	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav h1 {
-  margin: 0;
+	margin: 0;
 }
 
 .col {
-  float: left;
-  padding: 0 10px;
+	float: left;
+	padding: 0 10px;
 }
 
 .col-4 {
-  width: 33.3333333333%;
-  width: -webkit-calc( 100% / 3 );
-  width: -moz-calc( 100% / 3 );
-  width: -ms-calc( 100% / 3 );
-  width: -o-calc( 100% / 3 );
-  width: calc( 100% / 3 );
+	width: 33.3333333333%;
+	width: -webkit-calc(100% / 3);
+	width: -moz-calc(100% / 3);
+	width: -ms-calc(100% / 3);
+	width: -o-calc(100% / 3);
+	width: calc(100% / 3);
 
-  border: 1px solid #EFEFEF;
+	border: 1px solid #efefef;
 }
 
-.giphy, .swanson, .chuck {
-  overflow: auto;
+.giphy,
+.swanson,
+.chuck {
+	overflow: auto;
 
-  height: -webkit-calc( 100vh - 80px );
-  height: -moz-calc( 100vh - 80px );
-  height: -ms-calc( 100vh - 80px );
-  height: -o-calc( 100vh - 80px );
-  height: calc( 100vh - 80px );
+	height: -webkit-calc(100vh - 80px);
+	height: -moz-calc(100vh - 80px);
+	height: -ms-calc(100vh - 80px);
+	height: -o-calc(100vh - 80px);
+	height: calc(100vh - 80px);
 }
 
 .content img {
-  display: block;
-  max-width: 100%;
-  margin: 5px auto;
+	display: block;
+	max-width: 100%;
+	margin: 5px auto;
 }
