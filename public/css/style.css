@@ -16,24 +16,38 @@ body {
 nav {
 	width: 100%;
 	overflow: hidden;
-	background-color: #ffff00;
+	font-family: "Major Mono Display", monospace;
+	background-color: #efefef;
 	height: 80px;
 	line-height: 80px;
 	background: #a8ff78; /* fallback for old browsers */
-	background: -webkit-linear-gradient(
-		to right,
-		#78ffd6,
-		#a8ff78
-	); /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(
-		to right,
-		#78ffd6,
-		#a8ff78
-	); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: linear-gradient(-45deg, #78ffd6, #a8ff78, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+	font-size: 48px;
 }
 
 nav h1 {
 	margin: 0;
+}
+
+h4 {
+	font-weight: normal;
 }
 
 .col {
